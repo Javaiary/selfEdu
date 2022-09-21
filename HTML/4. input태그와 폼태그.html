@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>input 태그와 폼에서의 태그</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <!--테두리로 구분-->
+      <legend>테두리 제목</legend>
+      <ul id="shipping">
+        <li>
+          <label for="prod">주문 상품</label>
+          <input type="text" id="prod" value="상품용 3KG" readonly>
+          <!--readonly: 읽기전용 필드-->
+        </li>
+        <li>
+          <label for="user-name"> 이름</label>
+          <input type="text" id="user-name" autofocus required>
+          <!--required: 필수값으로 지정
+            autofocus: 자동커서 -->
+        </li>
+        <li>
+          <label for="addr">배송 주소</label>
+          <input type="text" id="addr" required>
+        </li>
+        <li>
+          <label for="mail">이메일</label>
+          <input type="email" id="mail">
+          <!--email 형식에 맞지 않을 시(@ 미포함) 오류메시지 제공-->
+        </li>
+        <li>
+          <label for="phone">연락처</label>
+          <input type="tel" id="phone" placeholder="하이픈 빼고 입력해 주세요.(01012345678)" required>
+          <!--placeholder : 힌트 표시 -->
+        <li>
+          <label for="memo"> 메모</label>
+          <textarea id="memo" cols="40" rows="4"></textarea>
+          <!--textarea 생성, 열 40(영문40자), 행 4로 지정해서 생성-->
+        </li>
+      </ul>
+    </fieldset>
+    <div>
+      <input type="submit" value="주문하기">
+      <input type="reset" value="취소하기">
+    </div>
+    <fieldset>
+      <!--select태그를 사용하여 드롭다운 목록제공-->
+      <legend>select 태그 사용하기</legend>
+      <label>
+        <select>
+          <!--디폴트로 지정해 줄 값에 selected속성을 지정-->
+          <option value="서버로 넘겨줄 값1" selected>옵션1</option>
+          <option value="서버로 넘겨줄 값2">옵션2</option>
+          <option value="서버로 넘겨줄 값3">옵션3</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <!--datalist를 통해 텍스트필드에 값을 직접 입력하지 않고 미리 만들어 놓은 값 중에서 선택-->
+      <legend>datalist 태그 사용하기</legend>
+      <label><input type="text" list="goods"></label>
+      <datalist id="goods">
+        <option value="서버로 넘겨줄 값1">옵션1</option>
+        <option value="서버로 넘겨줄 값2">옵션2</option>
+        <option value="서버로 넘겨줄 값3">옵션3</option>
+      </datalist>
+    </fieldset>
+
+    <!--button type = "submit" "reset" "botton"
+    전체 페이지에 적용되는 버튼-->
+    <button type="submit">제출(전송)</button>
+    <button type="reset">초기화</button>
+    <button type="button">기능 없음</button>
+  </form>
+
+</body>
+
+</html>
