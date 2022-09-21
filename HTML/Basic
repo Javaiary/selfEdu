@@ -1,7 +1,36 @@
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNdezJZ" data-user="javaiary" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/javaiary/pen/oNdezJZ">
-  Untitled</a> by Javaiary (<a href="https://codepen.io/javaiary">@javaiary</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<!DocType HTML> <!-- 현재 문서가 html5 언어로 작성한 웹문서라는 뜻 -->
+<html lang = "ko"> <!-- 한국어로 작성된 문서 -->
 
+<head>
+
+<!--meta 태그: 웹사이트의 키워드나 간단한 설명, 제작자 등의 정보 지정
+  검색엔진에서 사이트를 검색할 때 참고됨 -->
+  <meta charset = "UTF-8"> <!--유니코드로 문자세트(charset) 지정-->
+  <meta name = "keywords" content = "html의 구조">
+  <title> HTML 기본문서 </title> <!-- 웹 페이지의 제목을 지정(탭 제목)-->
+  <nav> Hola! </nav>  <!--네비게이션 영역-->
+
+</head>
+
+<!-- <body> 웹 브라우저에 표시되는 내용-->
+<body>
+
+  <main class="contents"> <!--메인 컨텐츠?-->
+  <h1>제목</h1> <!-- 제목 크기지정 h1 > h2 > ...> h6 -->
+  <p></p> <!--paragraph 하나의 텍스트 단락으로 만들어 줌(빈 줄 추가)-->
+  <a> </a> <!--anchor 하이퍼링크 추가-->
+  <em> </em> <!--이탤릭체-->
+  <strong></strong> <!--글자 강조(+볼드 , tts구현시 <b>태그와 구분됨)-->
+  <b></b> <!--볼드 (글자 단순 굵게 목적이면 CSS 사용이 더 효과적)-->
+  <br>  <!--줄바꿈(닫는 태그 X)-->
+  <hr> <!--가로 구분선 추가-->
+  <ol> <!--Ordered List, 순서가 있는 목록 (1. 2. 3....) or type ="a" (a.b.c..)-->
+    <li></li> <!--텍스트를 입력하면 알아서 목록번호를 추가해 줌-->
+  </ol>
+  <ul> </ul> <!-- Unordered List , 순서가 없는 목록 불릿 ● 으로 목록 표시-->
+  
+
+</main>
+</body>
+
+</html>
