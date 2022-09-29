@@ -1,0 +1,44 @@
+1. font-family 속성
+    - font-fmaily : <글꼴1>| [<글꼴2>, <글꼴3>]
+		- body{font-family : "맑은 고딕", 돋움, 굴림} 
+			- body전체에 맑은 고딕 글꼴을 적용함. 
+			  맑은 고딕 글꼴이 없을 시 돋움, 돋움이 없을 시 굴림 적용
+
+2. font-size 속성
+	- font-size : <절대크기> | <상대크기> | <크기> | <백분율>
+		- xx-small < x-small < small < medium < large < x-large < xx-large
+
+3. font-style
+	- font-style: normal | italic | oblique
+
+4. font-weight
+	- font-weight: normal | bold | bolder | lighter | 100 | 200 | ... | 900
+				   굵기
+
+5. 웹폰트 사용하기
+	@font - face{
+		font -family: <글꼴 이름>;
+		src : <글꼴 파일>[<글꼴 파일>, <글꼴 파일>, ....];
+	}
+
+6. 텍스트 정렬
+	text-align: start | end | left | right | center | justify | match-parent
+
+7. 줄간격 조절
+	p{ font-size : n px; line-height : N px;(크기 직접지정)} 
+	p{ font-size : n px; line-height : N; (n의 N배)} 	
+	p{ font-size : n px; line-height : N%;(n의 N배)} 
+
+8. 텍스트 줄 표시/없애기
+    <p style = "text-decoration: line-through"> <p>
+9. 텍스트에 그림자 효과 추가
+	text-shadow
+
+10. 텍스트의 대소문자 변환
+text-transform
+
+11. 글자 간격 조절
+	ltter-spacing
+	word-spacing
+
+12.

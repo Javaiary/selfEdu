@@ -1,0 +1,16 @@
+1. list-style-type
+    list-style-type : 불릿스타일 ;
+    - 불릿모양/번호 스타일을 지정
+
+2. list-style-image
+    list-style-image: <url(이미지파일 경로)> | none
+    - 기본 불릿 대신 이미지 파일 사용도 가능
+
+
+3. list-style-position
+    list-style-position : inside | outside
+    - 들여쓰기 
+
+4. list-style
+    list-style
+    - 목록 속성을 한꺼번에 표시
