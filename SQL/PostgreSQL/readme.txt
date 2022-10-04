@@ -1,0 +1,1 @@
+PostgreSQL연습파일 저장용
