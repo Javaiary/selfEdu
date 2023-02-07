@@ -1,3 +1,6 @@
 [submodule "python"]
 	path = python
 	url = https://github.com/Javaiary/python.git
+[submodule "Spring"]
+	path = Spring
+	url = https://github.com/Javaiary/Spring.git
