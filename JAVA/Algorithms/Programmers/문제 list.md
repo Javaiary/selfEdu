@@ -4,4 +4,5 @@
 4. 분수의 덧셈 https://school.programmers.co.kr/learn/courses/30/lessons/120808
 5. 다음에 올 숫자 https://school.programmers.co.kr/learn/courses/30/lessons/120924
 6. 콜라츠 추측 https://school.programmers.co.kr/learn/courses/30/lessons/12943
-7. 
+7. 종이 자르기 https://school.programmers.co.kr/learn/courses/30/lessons/120922
+8. 둘만의 암호 https://school.programmers.co.kr/learn/courses/30/lessons/155652
