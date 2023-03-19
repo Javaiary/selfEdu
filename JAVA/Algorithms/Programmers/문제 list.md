@@ -8,3 +8,7 @@
 8. 종이 자르기 https://school.programmers.co.kr/learn/courses/30/lessons/120922
 9. 구명보트 https://school.programmers.co.kr/learn/courses/30/lessons/42885
 10. 연속된 수의 합https://school.programmers.co.kr/learn/courses/30/lessons/120923
+11. H-Index https://school.programmers.co.kr/learn/courses/30/lessons/42747
+12. OX퀴즈 https://school.programmers.co.kr/learn/courses/30/lessons/120907
+13. 성격 유형 검사하기 https://school.programmers.co.kr/learn/courses/30/lessons/118666
+14. 크레인 인형뽑기 게임 https://school.programmers.co.kr/learn/courses/30/lessons/64061
